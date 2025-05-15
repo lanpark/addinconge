@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Déclaration de congé</title>
+  <script src="taskpane.js"></script>
+</head>
+<body>
+  <h1>Déclarer un congé 🌴</h1>
+  <form id="leaveForm">
+    <label for="startDate">Date début:</label>
+    <input type="date" id="startDate" name="startDate" required><br><br>
+    <label for="endDate">Date fin:</label>
+    <input type="date" id="endDate" name="endDate" required><br><br>
+    <label for="leaveType">Type:</label>
+    <select id="leaveType" name="leaveType">
+      <option value="CP">Congés payés</option>
+      <option value="RTT">RTT</option>
+      <option value="SansSolde">Sans solde</option>
+    </select><br><br>
+    <button type="submit">Envoyer au calendrier</button>
+  </form>
+</body>
+</html>
