@@ -10,8 +10,8 @@
   <DefaultLocale>fr-FR</DefaultLocale>
   <DisplayName DefaultValue="AddinConges"/>
   <Description DefaultValue="Déclarez vos congés dans Outlook."/>
-  <IconUrl DefaultValue="https://lanpark.github.io/addin-conges/assets/icon-64.png"/>
-  <HighResolutionIconUrl DefaultValue="https://lanpark.github.io/addin-conges/assets/icon-128.png"/>
+  <IconUrl DefaultValue="https://lanpark.github.io/addinconge/assets/icon-64.png"/>
+  <HighResolutionIconUrl DefaultValue="https://lanpark.github.io/addinconge/assets/icon-128.png"/>
   <SupportUrl DefaultValue="https://github.com/lanpark"/>
   <AppDomains><AppDomain>https://lanpark.github.io</AppDomain></AppDomains>
   <Hosts><Host Name="Mailbox"/></Hosts>
@@ -19,7 +19,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://lanpark.github.io/addin-conges/taskpane.html"/>
+        <SourceLocation DefaultValue="https://lanpark.github.io/addinconge/taskpane.html"/>
         <RequestedHeight>300</RequestedHeight>
       </DesktopSettings>
     </Form>
