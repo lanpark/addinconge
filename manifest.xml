@@ -6,7 +6,7 @@
            xsi:type="MailApp">
   <Id>ba1ce1a2-5866-4189-ac63-80a0ef688a8b</Id>
   <Version>1.0.0.0</Version>
-  <ProviderName>OpenAI</ProviderName>
+  <ProviderName>NCH</ProviderName>
   <DefaultLocale>fr-FR</DefaultLocale>
   <DisplayName DefaultValue="AddinConges"/>
   <Description DefaultValue="Déclarez vos congés dans Outlook."/>
@@ -93,7 +93,7 @@
         <bt:Image id="Icon.80x80" DefaultValue="https://lanpark.github.io/addinconge/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Commands.Url" DefaultValue="https://lanpark.github.io/addinconge/commands.html"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://lanpark.github.io/addinconge/commands/commands.html"/>
         <bt:Url id="Taskpane.Url" DefaultValue="https://lanpark.github.io/addinconge/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
