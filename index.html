@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mon Add-in Office</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Bienvenue dans l'Add-in Congés</h1>
+  <p>Ceci est une page de test pour vérifier le déploiement sur GitHub Pages.</p>
+  <button id="openTaskpane">Ouvrir le volet</button>
+
+  <script src="taskpane.js"></script>
+  <script>
+    document.getElementById('openTaskpane').onclick = () => {
+      alert('Ici on ouvrirait le volet de l’add-in.');
+    };
+  </script>
+</body>
+</html>
