@@ -1,32 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-  <meta charset="utf-8" />
-  <title>Demande de congés</title>
-  <script src="./taskpane.js" defer></script>
+  <meta charset="UTF-8">
+  <title>Demande de congé</title>
+  <script src="https://alcdn.msauth.net/browser/2.31.0/js/msal-browser.min.js"></script>
+  <script src="taskpane.js"></script>
 </head>
 <body>
-  <h1>Déclarer un congé</h1>
-  <p id="username"></p>
-  <p id="email"></p>
-
   <form id="leaveForm">
-    <label>Type de congé :</label>
-    <select id="leaveType" required>
-      <option value="RTT">RTT</option>
-      <option value="Congés payés">Congés payés</option>
-      <option value="Congés ancienneté">Congés ancienneté</option>
-    </select><br/><br/>
-
-    <label>Date de début :</label>
-    <input type="date" id="startDate" required><br/><br/>
-    
-    <label>Date de fin :</label>
-    <input type="date" id="endDate" required><br/><br/>
-
-    <button type="submit">Envoyer dans le calendrier</button>
+    <label>Date début: <input type="date" id="startDate" required></label><br>
+    <label>Date fin: <input type="date" id="endDate" required></label><br>
+    <label>Journée complète :
+      <input type="radio" name="dayType" value="full" checked> Oui
+      <input type="radio" name="dayType" value="half"> Non
+    </label><br>
+    <div id="halfDayOptions" style="display:none;">
+      <label><input type="radio" name="halfType" value="morning" checked> Matin</label>
+      <label><input type="radio" name="halfType" value="afternoon"> Après-midi</label>
+    </div><br>
+    <label>Type d’absence :
+      <select id="absenceType">
+        <option value="RTT">RTT</option>
+        <option value="CP">Congés Payés</option>
+        <option value="CA">Congé Ancienneté</option>
+      </select>
+    </label><br><br>
+    <button type="submit">Valider</button>
   </form>
-
-  <p id="status"></p>
 </body>
 </html>
