@@ -8,7 +8,6 @@
   <Description DefaultValue="A template to get started."/>
   <IconUrl DefaultValue="https://lanpark.github.io/addinconge/assets/icon-64.png"/>
   <HighResolutionIconUrl DefaultValue="https://lanpark.github.io/addinconge/assets/icon-128.png"/>
-  <SupportUrl DefaultValue="https://www.contoso.com/help"/>
   <AppDomains>
     <AppDomain>https://lanpark.github.io/addinconge</AppDomain>
   </AppDomains>
